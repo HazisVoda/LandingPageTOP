@@ -6,15 +6,21 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <div class="sectionOne">
-            <div class="header">
+        <div class="section top">
+            <header class="header">
                 <h1>Header Logo</h1>
-                <div class="links">
-                    <a class="link" href="#">header link one</a>
-                    <a class="link" href="#">header link two</a>
-                    <a class="link" href="#">header link three</a>
-                </div>
-            </div>
+                <ul class="links">
+                    <li class="link">
+                        <a class="link" href="#">header link one</a>
+                    </li>
+                    <li class="link">
+                        <a class="link" href="#">header link two</a>
+                    </li>
+                    <li class="link">
+                        <a class="link" href="#">header link three</a>
+                    </li>
+                </ul>
+            </header>
             <div class="container">
                 <div class="text">
                     <h1>This website is awesome</h1>
@@ -28,16 +34,60 @@
                 </div>
                 <div class="image">
                     <img src="./images/lasagna.png" alt="image">
+                </div>
             </div>
         </div>
-        <div class="sectionTwo">
-            <h1>Welcome</h1>
-            <div class="loginButton">
-                <a href="login.html">Login</a>
+        <div class="section boxes">
+            <h1>Some random information.</h1>
+            <ul class="middleList">
+                <li class="item">
+                    <a href="#" class="link-box"></a>
+                    <p>this is some subtext under an illustration or image</p>
+                </li>
+                <li class="item">
+                    <a href="#" class="link-box"></a>
+                    <p>this is some subtext under an illustration or image</p>
+                </li>
+                <li class="item">
+                    <a href="#" class="link-box"></a>
+                    <p>this is some subtext under an illustration or image</p>
+                </li>
+                <li class="item">
+                    <a href="#" class="link-box"></a>
+                    <p>this is some subtext under an illustration or image</p>
+                </li>
+            </ul>
+        </div>
+        <div class="section quote">
+            <div class="text">
+                <h1>
+                    This is an inspiring quote, or a testimonial from a 
+                    customer. Maybe it's just filling up space, or maybe 
+                    people will actually read it. Who knows? All I know
+                    is that it looks nice.
+                </h1>
+                <h2>
+                    -Thor, God of Thunder
+                </h2>
             </div>
-            <div class="aboutButton">
-                <a href="about.html">About</a>
+        </div>
+        <div class="section box">
+            <div class ="container">
+                <div class="text">
+                    <h1>Call to action! It's time!</h1>
+                    <p>
+                        Sign up for our product by clicking that button right over there!
+                    </p>
+                </div>
+                <div class="button">
+                    <a href="login.html">
+                        <button class="loginButton">Sign up</button>
+                    </a>
+                </div>
             </div>
+        </div>
+        <div class="section footer">
+            <p>Copyright © The Odin Project 2021</p>
         </div>
     </body>
 </html>
